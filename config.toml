@@ -1,0 +1,20 @@
+base_url = "https://zola-blog-starter.netlify.app"
+title = "Zola Blog Starter"
+theme = "terminimal"
+compile_sass = true
+highlight_code = true
+highlight_theme = "dracula"
+taxonomies = [
+  {name = "tags"},
+]
+
+[extra]
+logo_text = "Zola Blog Starter"
+author = "Eric Zhang"
+menu_items = [
+  {name = "blog", url = "$BASE_URL"},
+  {name = "tags", url = "$BASE_URL/tags"},
+  {name = "archive", url = "$BASE_URL/archive"},
+  {name = "about me", url = "$BASE_URL/about"},
+  {name = "github", url = "https://github.com/ekzhang/zola-blog-starter/", newtab = true},
+]
