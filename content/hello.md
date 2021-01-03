@@ -1,5 +1,4 @@
 +++
-type = "post"
 title = "Welcome!"
 date = 2020-12-02
 
@@ -13,9 +12,9 @@ Hello world! This is a **test**.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque accumsan sem ut
 risus vulputate rhoncus. Pellentesque hendrerit ipsum a neque vehicula varius ut
-nec sapien. Nam vel iaculis nunc. In maximus sagittis nisi non faucibus. In ac
-mattis ipsum. Proin a vehicula urna. Vivamus nec lacus quis purus maximus
-vehicula. In vehicula laoreet odio eget tincidunt.
+nec sapien. Nam vel iaculis nunc. <!-- more --> In maximus sagittis nisi non
+faucibus. In ac mattis ipsum. Proin a vehicula urna. Vivamus nec lacus quis
+purus maximus vehicula. In vehicula laoreet odio eget tincidunt.
 
 > Software engineers don’t get into coding because they want someone to tell
 > them what to do, they get into it because they discovered they could create

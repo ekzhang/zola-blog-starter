@@ -21,3 +21,5 @@ USA Physics Olympiad (USAPhO). He was named a Goldwater Scholar, the most
 prestigious fellowship in the natural sciences, mathematics, and engineering. He
 is also the primary author of a paper published in _Operations Research
 Letters_.
+
+_(Disclaimer: I am not Franklyn Wang)_
