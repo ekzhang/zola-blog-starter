@@ -1,0 +1,29 @@
+backend:
+  name: git-gateway
+  branch: master
+publish_mode: editorial_workflow
+media_folder: "static/img/uploads"
+public_folder: "/img/uploads"
+collections:
+  - name: posts
+    label: Post
+    folder: content
+    format: toml-frontmatter
+    create: true
+    fields:
+      - label: Type
+        name: type
+        widget: hidden
+        default: post
+      - label: Title
+        name: title
+        widget: string
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - label: Tags
+        name: taxonomies.tags
+        widget: list
+      - label: Blog Post
+        name: body
+        widget: markdown
